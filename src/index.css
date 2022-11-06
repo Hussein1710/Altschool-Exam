@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.pages{
+  /* margin-top: 300px; */
+  position: fixed;
+  bottom: 0%;
+  left: 400px;
+  
+}
+.page-number{
+  display: flex;
+  gap: 80px;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+
+}
+.page-number li{
+  font-size: 40px;
+  
+}
+
+.page-number a{
+  color: black;
+  text-decoration: none;
+}
+
+.page-number a:hover{
+  color: rgb(56, 128, 128);
+}
+.home{
+  background-image: url(https://www.planetware.com/photos-large/SEY/best-islands-maldives.jpg);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+
+}
+
+.home h1{
+  color: orangered;
+  font-size: 75px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.home nav ul{
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  list-style: none;
+  
+}
+.home nav{
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+.home nav li{
+  border: 1px solid transparent;
+  background-color: black;
+  border-radius: 6px;
+  padding: 6px;
+  
+}
+.home nav a{
+  color: azure;
+  text-decoration: none;
+
+}
+.home nav a:hover{
+  color: rgb(56, 128, 128);
+}
+.text{
+  font-size: 30px;
+  font-weight: 32px;
+  color: #f0e9ef;
+  text-decoration: transparent;
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 10 10;
+  display: flex;
+  height: 20vh;
+  background: rgb(20, 20, 20);
+  
+}
+
+.signup{
+  background:rgb(231, 235, 235);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: right;
+}
+.signup-input{
+  width: 300px;
+  height: 30px;
+}
+label{
+  font-size: 30px;
+}
+.btn{
+  color: black;
+  margin-top: 40px;
+  width: 100px;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+
+}
+.btn:hover{
+  color: rgb(56, 128, 128);
+  background: black;
+}
+.signup p{
+  font-size: 30px;
+  font-weight: bolder;
+  font-style: italic;
+}
+.users{
+  display: flex;
+  background: rgb(231, 235, 235);
+  height: 100vh;
+  width: 100%;
+  
+
+}
